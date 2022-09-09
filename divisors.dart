@@ -7,5 +7,8 @@ void main(){
   for (int i = 1; i <= n; i++) {
     if (n % i == 0) divisors.add(i);
   }
-  print("Divisors of a number $n are \n ${divisors.join(", ")}");
+  print(
+    (divisors.isNotEmpty)
+      ? "Divisors of a number $n are \n ${divisors.join(", ")}"
+      : "Enter a positive number");
 }
