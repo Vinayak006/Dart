@@ -6,6 +6,6 @@ main(){
   print("and what's your age?");
   String? age = stdin.readLineSync();
   print((int.parse(age!) < 100)
-      ? "${100 - int.parse(age)} years to become 100 years old, $name"
-      : "$name, you are already $age years old");
+      ? "$name, you have ${100 - int.parse(age)} more years to reach 100th year milestone"
+      : "$name, you have already reached the 100th year milestone");
 }
