@@ -14,3 +14,6 @@ an appropriate message to the user.
 
  5. Create a program that asks the user for a number and then prints out a list of all the 
 divisors of that number.
+
+![image](https://user-images.githubusercontent.com/40909737/229266249-bad3e14a-6c70-438b-ba11-8c30bfd8c8b9.png)
+
